@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", system-ui;
+}
+body{
+    background-color: #abb58b;
+}
+.wanda{
+    position: absolute;
+    left: 20%;
+    margin: 12px;
+    width: 800px;
+    height: 500px;
+    border: 3px solid #f20a38;
+    border-radius: 20px;
+    background-color: #797e85;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(7px);
+    box-shadow: 1px 1px 10px #f20a38,
+                1px 1px 15px #f20a38;
+    overflow: hidden;
+}
+.wanda h1{
+    color: white;
+    text-align: center;
+    margin: 15px;
+    text-decoration: underline;
+    font-weight: 1000;
+}
+.wanda p{
+    color: white;
+    margin: 30px;
+    font-size: 1.2em;
+}
+.wanda .foto1 {
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    border: 3px solid #f20a38;
+    border-radius: 20px;
+    left: 5%;
+    top: 39%;
+    overflow: hidden;
+}
+.wanda .foto1 .foto12{
+    background: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5525675DDD0ADAC6D5527A7E051241B2DB49578C204C32C9C097B67022EABFC8/scale?width=1200&aspectRatio=1.78&format=webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wanda .foto1 .foto12{
+    transition: ease .5s;
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    border-radius: 20px;
+    scale: 1.5;
+    filter: blur(7px);
+}
+.wanda .foto1 .foto12:hover{
+    transition: ease .5s;
+    scale: 1.008;
+    filter: blur(0px);
+}
+.wanda p1{
+    color: white;
+    margin: 30px;
+    font-size: 1.2em;
+
+    text-shadow: 1px 1px 10px white,
+                    1px 1px 15px white;
+}
+.wanda .foto1 p{
+    color: white;
+    font-size: 2em;
+}
+.gosto1{
+    position: absolute;
+    margin: 12px;
+    width: 200px;
+    height: 250px;
+    right: 150px;
+    top: 100px;
+    border-radius: 20px;
+    border: 3px solid #f20a34;
+    background-color: #797e85;
+}
+.gosto1{
+    position: absolute;
+    top: 39%;
+    left: 550px;
+}
+
+
+.stranger{
+    position: absolute;
+    left: 21%;
+    top: 550px;
+    width: 800px;
+    height: 500px;
+    background-color: #797e85;
+    border: 3px solid #0c20f7;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #0c20f7,
+                1px 1px 15px #0c20f7;
+}
+.stranger h1{
+    color: white;
+    margin: 15px;
+    font-weight: 1000;
+    text-align: center;
+    text-decoration: underline;
+}
+.stranger p{
+    color: white;
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+.stranger .foto2{
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    border: 3px solid #0c20f7;
+    border-radius: 20px;
+    left: 5%;
+    top: 39%;
+    overflow: hidden;
+}
+.stranger .foto2 .foto22{
+    background: url("https://occ-0-8407-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS6v2gvwesuRN6c28ZykPq_fpmnQCJwELBU-kAmEcuC9HhWX-DfuDbtA-bfo-IrfgNtxl0qwJJlhI6DENsGFXknKkjhxPGTV-qhp.jpg?r=608") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.stranger .foto2 .foto22{
+    position: absolute;
+    transition: ease .5s;
+    width: 500px;
+    height: 280px;
+    border-radius: 20px;
+    scale: 1.5;
+    filter: blur(7px);
+}
+.stranger .foto2 .foto22:hover{
+    transition: ease .5s;
+    scale: 1.008;
+    filter: blur(0px);
+}
+.stranger p1{
+    color: white;
+    margin: 20px;
+    font-size: 1.2em;
+
+    text-shadow: 1px 1px 10px white,
+                    1px 1px 15px white;
+}
+.gosto2{
+    position: absolute;
+    margin: 12px;
+    width: 200px;
+    height: 250px;
+    right: 20px;
+    top: 195px;
+    border-radius: 20px;
+    border: 3px solid #0c20f7;
+    background-color: #797e85;
+}
+
+
+.agatha{
+    position: absolute;
+    left: 21%;
+    top: 1085px;
+    width: 800px;
+    height: 500px;
+    background-color: #797e85;
+    border: 3px solid #8308ff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #8308ff,
+                1px 1px 15px #8308ff;
+}
+.agatha h1{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin: 15px;
+    font-weight: 1000;
+}
+.agatha p{
+    color: white;
+    margin: 20px;
+    font-size: 1.2em;
+}
+.agatha p1{
+    color: #f20a34;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+.agatha p2{
+    color: white;
+    margin: 20px;
+    font-size: 1.2em;
+
+    text-shadow: 1px 1px 10px white,
+                    1px 1px 15px white;
+}
+
+.agatha .foto3{
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    border: 3px solid #8308ff;
+    border-radius: 20px;
+    left: 5%;
+    top: 39%;
+    overflow: hidden;
+}
+.agatha .foto3 .foto33{
+    background: url("https://rollingstone.com.br/media/uploads/2024/09/que-horas-estreia-agatha-desde-sempre-nova-serie-da-marvel-no-disney.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.agatha .foto3 .foto33{
+    position: absolute;
+    transition: ease .5s;
+    width: 500px;
+    height: 280px;
+    border-radius: 20px;
+    scale: 1.5;
+    filter: blur(7px);
+}
+.agatha .foto3 .foto33:hover{
+    transition: ease .5s;
+    scale: 1.008;
+    filter: blur(0px);
+}
+.gosto3{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    right: 20px;
+    top: 205px;
+    border-radius: 20px;
+    border: 3px solid #8308ff;
+    background-color: #797e85;
+}
+.gosto3 p{
+    position: absolute;
+    top: -7px;
+}
